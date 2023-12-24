@@ -184,3 +184,9 @@ button[type="submit"]:hover {
 .top-links a:hover {
   color: #9abbf4 !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .home-img {
+    display: none;
+  }
+}
