@@ -1,169 +1,186 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-#first{
-    background: #0B2C3D;
-}
-/* #third{
-    position: relative;
-}
-#fourth{
-    position: absolute;
-    overflow: hidden;
-} */
+
 #rent {
-    background: url(../img/1.jpg);
-    height: 331px;
-    width: 482px;
-    background-size: cover;
+  background: url(../img/1.jpg);
+  height: 331px;
+  width: 482px;
+  background-size: cover;
 }
 #rent_two {
-    background: url(../img/2.jpg);
-    height: 331px;
-    width: 482px;
-    background-size: cover;
+  background: url(../img/2.jpg);
+  height: 331px;
+  width: 482px;
+  background-size: cover;
 }
 #rent_three {
-    background: url(../img/5.jpg);
-    height: 331px;
-    width: 482px;
-    background-size: cover;
+  background: url(../img/5.jpg);
+  height: 331px;
+  width: 482px;
+  background-size: cover;
 }
 #thirteen {
-    background: url(../img/20.jpg);
-   
-    background-size: cover;
+  background: url(../img/20.jpg);
+
+  background-size: cover;
 }
-#eleventh{
-    background: url(../img/19.jpg);
-    height: 350px;
-    background-size: cover;
-    background-attachment: fixed;
+#eleventh {
+  background: url(../img/19.jpg);
+  height: 350px;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.first_card:hover{
-    border-bottom: 4px solid #ff5a3c;
+
+/* form section */
+
+.sub-form {
+  background: #fafbff;
+  color: #444;
+  padding: 30px;
 }
-.first_card:hover a{
-    color: #ff5a3c;
+.sub-form i {
+  color: #4154f1;
+  font-size: 38px;
+  line-height: 0;
 }
-.scond_card:hover{
-    border-bottom: 4px solid #ff5a3c;
+.sub-form h3 {
+  color: #012970;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 10px;
 }
-.scond_card:hover a{
-    color: #ff5a3c;
+.sub-form p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  padding: 0;
 }
-.third_card:hover {
-    border-bottom: 4px solid #ff5a3c; 
+.intro-name {
+  font-size: 56px;
+  font-weight: 900;
+  color: #012970;
 }
-.third_card:hover a{
-    color: #ff5a3c;
+.intro-btn,
+.project-btn,
+button[type="submit"] {
+  background: #012970;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 30px;
+  transition: 0.4s;
 }
-.paking:hover{
-    background: #ff5a3c;
-    
-}
-.paking:hover h4{
+.project-btn:hover {
+  background: rgb(67, 61, 243);
   color: white;
+  font-weight: 500;
 }
-.agent_hov:hover{
-    border-bottom: 4px solid #ff5a3c; 
-    color: #ff5a3c;
+button[type="submit"]:hover {
+  background: rgb(67, 61, 243);
+  color: white;
+  font-weight: 500;
 }
-.admin_hov:hover h4{
-    color: #ff5a3c;
+.section-header h2 {
+  background: #e7f1fd;
+  border-radius: 50px;
+  color: #4154f1;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  padding: 8px 20px;
+}
+.section-header p {
+  color: #012970;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 42px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.link-cv a {
+  color: #012970;
+}
+.link-cv a:hover {
+  color: rgb(67, 61, 243);
+}
+.cv a {
+  color: #ffffff;
+  background: #012970;
+}
+.cv a:hover {
+  background: rgb(67, 61, 243);
+  color: #ffffff;
+}
+.service-img {
+  color: #012970;
+}
+.section-header {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.rating-icon {
+  color: #012970;
+}
+.rating-profile {
+  width: 114px;
+  height: 114px;
+}
+.rating-name {
+  color: #012970;
+}
+.bar .progress-bar {
+  background: #012970;
+}
+.rating-header {
+  color: #012970;
+}
+.hire-header {
+  background: #012970;
 }
 
-#fifteen a:hover{
-    color: #ff5a3c;
+.hire-btn {
+  background: rgb(169, 166, 240);
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 25px;
+  transition: 0.4s;
 }
-#sixteen p:hover{
-    color: #ff5a3c;
+.card-body:hover {
+  background: #012970;
+  color: white;
+  border-radius: 3%;
 }
-#sixteen i:hover{
-    color: #ff5a3c;
+.card-body {
+  background: #fff;
 }
-#sixteen h4:hover{
-    color: #ff5a3c;
+.about-text .about-header {
+  color: #012970;
 }
-#fourth a:hover{
-    color: #ff5a3c;
-    background: rgb(238, 237, 237);
+.intro-name {
+  font-family: "Rubik-Doodle-Triangles", sans-serif;
 }
-#fourth .find{
-    background: #ff5a3c;
-    color: white;
+.intro-img {
+  height: 500px;
+  width: 500px;
 }
-#fourth .find:hover{
-    background: rgb(238, 237, 237);
-    color: #ff5a3c;
-    font-weight: bold;
+.top-links a {
+  color: #0947b3 !important;
+  padding: 0;
+  font-size: 20px;
+  border-right: 1px solid #012970;
 }
-
-#second a:hover{
-    color: white;
-    background:#ff5a3c;
-}
-#second a{
-    color: black;
-}
-#second i{
-    background: white;
-}
-#second i:hover{
-    background: #ff5a3c;
-    color: white;  
-}
-#first a{
-    color: white;
-    background: #ff5a3c;
-}
-#first a:hover{
-    background: white;
-    color: #ff5a3c;  
-    font-weight: bold;
-}
-#first i:hover{
-    color: #ff5a3c;  
-}
-#first p{
-    color: white; 
-}
-#first p:hover{
-    color: #ff5a3c; 
-}
-#fifth .service{
-    background: #ff5a3c;
-    color: white;
-}
-#fifth .service:hover{
-    background: rgb(238, 237, 237);
-    color: #ff5a3c;
-    font-weight: bold;
-}
-#third .service{
-    background: #ff5a3c;
-    color: white;
-}
-#third .service:hover{
-    background: rgb(238, 237, 237);
-    color: #ff5a3c;
-    font-weight: bold;
-}
-#third .learn{
-    color: black;
-}
-#third .learn:hover{
-    background: rgb(238, 237, 237);
-    color: #ff5a3c;
-    font-weight: bold;
+.top-links a:hover {
+  color: #9abbf4 !important;
 }
